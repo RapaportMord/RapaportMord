@@ -1,0 +1,14 @@
+<div>
+
+<form>
+<label for="numberOfTimes">כמה פעמים ברצונך להגיד לשימי המתוק מזל טוב?</label>
+<input type="number" name="num" placeholder="הכנס מספר:" [(ngModel)]="num">
+
+<p *ngIf="num !=0">{{num}}</p>
+<label for="from">מאת:</label>
+<input type="text" name="name" placeholder="הכנס שם:" [(ngModel)]="name">
+<p>{{name}}</p>
+<button type="submit" (click)="Navigate()">שלח מזל טוב</button>
+</form>
+
+</div>

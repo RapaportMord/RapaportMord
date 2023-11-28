@@ -1,0 +1,40 @@
+div{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+}
+
+
+
+button{
+    background-color: #487584;;
+    border-radius: 30px;
+    border: none;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 5rem;
+    text-align: center;
+    transition-duration: 0.4s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #416a5b; /* Green */
+    color: white;
+}
+
+.center{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    button {
+      padding: 1em;
+      font-size: 2rem;
+    }
+  }
